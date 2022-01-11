@@ -53,7 +53,7 @@ const altNumbers = (numArray) => {
         }
     }
 
-    if (positiveArray.length > numElements/2) {
+    if (positiveArray.length > negativeArray.length) {
         // Start array with positive number.
         for (let j = 0; j < numElements; j++) {
             finalArray.push(positiveArray[j]);
@@ -72,9 +72,6 @@ const altNumbers = (numArray) => {
     }
     
     return finalArray;
-    
-
-
     
 }
 
